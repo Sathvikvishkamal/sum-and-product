@@ -1,0 +1,21 @@
+
+
+#include <stdio.h>
+
+int main()
+{
+    int n,i,sum=0;
+    printf("enter n:\n");
+    scanf("%d",&n);
+    for(i=0;i<=n;i++)
+    {
+        if(i%3==0 || i%5==0)
+        {
+        sum=sum+i;
+        }   
+    }
+    printf("the total sum is %d ",sum);
+    return 0;
+    
+}
+//code for sum of only multiples of 3 and 5
